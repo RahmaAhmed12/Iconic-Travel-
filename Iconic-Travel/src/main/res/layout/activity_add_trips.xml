@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    tools:context=".AddTrips">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-169dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Airport"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_weight="1"
+                android:text="  Airport : "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextAirport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#ffffff"
+                android:editable="true"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Destination"
+                android:layout_width="160dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:text="  Destination : "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextdestination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="  Date : "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextdata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/timeOfTravel"
+                android:layout_width="208dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="  Time Of Travel : "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTexttimeOfTravel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/numberOfSeats"
+                android:layout_width="199dp"
+                android:layout_height="58dp"
+                android:layout_weight="1"
+                android:text="  Number Of Seats : "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextnumberOfSeats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TicketPrice"
+                android:layout_width="156dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:text="  Ticket Price : "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextticketPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/weightOfBags"
+                android:layout_width="212dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="  Weight Of Bags :  "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/editTextweightOfBags"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="311dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#EEF1F4"
+            android:text="@string/add"
+            android:textColor="#048EA6"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

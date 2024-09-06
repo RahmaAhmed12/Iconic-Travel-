@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Iconic Travel</string>
+    <string-array name="inside_cities">
+        <item>Cairo Airport</item>
+        <item>Luxor Airport</item>
+        <item>Hurghada Airport</item>
+
+    </string-array>
+
+    <string-array name="outside_cities">
+        <item>Cairo Airport</item>
+        <item>London Airport</item>
+        <item>Paris Airport</item>
+
+    </string-array>
+
+    <string name="welcome">Welcome To Iconic Travel</string>
+    <string name="my_profile">My Profile</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="add">add</string>
+
+</resources>
